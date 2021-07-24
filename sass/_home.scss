@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  height: max-content;
+  background-image: url("../img/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  display: grid;
+  grid-template-columns: [about-start] 25% [about-end full-start center-start] 50% [center-end right-start] 25% [right-end full-end];
+  grid-template-rows: max-content max-content min-content;
+}
+.section-about {
+  grid-column: about-start/ about-end;
+  grid-row: 1/-1;
+  background-color: $color-white;
+  border-right: 1px solid rgba($color-grey-light-1, 0.2);
+}
+
+.section-navigation {
+  grid-column: full-start/full-end;
+  grid-row: 1/2;
+}
+
+.section-overview {
+  grid-column: full-start/full-end;
+  grid-row: 2/3;
+}
+
+.section-portfolio {
+  grid-column: center-start/center-end;
+  grid-row: 3/4;
+  padding: 2rem;
+}
+
+.section-activity {
+  grid-column: right-start / right-end;
+  grid-row: 3/4;
+}

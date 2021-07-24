@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__top">
+            <div class="header__sms"><a href="#"><i class="fa fa-comments"></i>SKS Funding</a></div>
+            <button class="header__btn btn btn--grey">Need Help</button>
+            <i class="header__notification fa fa-bell-o" aria-hidden="true"></i>
+            <img src="img/user-9.jpg" alt="User 9" class="header__small-profile">
+        </div>
+        <div class="profile">
+            <img src="img/user-9.jpg" alt="Profile" class="profile__img">
+            <div class="profile__details">
+                <h1 class="profile__greetings">Hi, Emma Good Morning</h1>
+                <div class="profile__text"><span>Email - </span>akp.emma1231@gmail.com</div>
+                <div class="profile__text"><span>Phone - </span>+91-8897584843</div>
+                <div class="profile__text"><span>Address - </span>Po Box 2103 Linden, NJ 07036 (USA)</div>
+                <div class="profile__text"><span>Plan - </span>$100</div>
+                <div class="profile__text"><span>Joined - </span>Mon 22nd Feb 2019</div>
+            </div>
+            <div class="profile__completion">
+                <div class="percentage">
+                    <div class="percent">
+                        <svg>
+                            <circle cx="55" cy="55" r="55"></circle>
+                            <circle cx="55" cy="55" r="55"></circle>
+                        </svg>
+
+                        <div class="number">
+                            <h2>75%</h2>
+                        </div>
+                    </div>
+                    <div class="profile__text-2">
+                        <h1 class="profile__heading-1">Profile Completion</h1>
+                        <h2 class="profile__heading-2">Please Complete Profile</h2>
+                        <button class="btn btn--primary">Complete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="container">
+        <section class="section-about">
+            <div class="about__family">
+                <div class="about__header">
+                    <h1 class="about__heading">About My Family
+                    </h1>
+                    <div class="about__expand"></div>
+                </div>
+
+                <h2 class="about__text">Covered Persons</h2>
+                <div class="about__images">
+                    <img src="img/user-6.jpg" alt="About Photo 1" class="about__photo">
+                    <img src="img/user-7.jpg" alt="About Photo 2" class="about__photo">
+                </div>
+                <h2 class="about__text">Beneficiary persons</h2>
+                <div class="about__images">
+                    <img src="img/user-8.jpg" alt="About Photo 3" class="about__photo">
+                    <img src="img/user-9.jpg" alt="About Photo 4" class="about__photo">
+                    <img src="img/user-10.jpg" alt="About Photo 5" class="about__photo">
+                </div>
+                <h2 class="about__text">Emergency persons</h2>
+                <div class="about__images">
+                    <img src="img/user-11.jpg" alt="About Photo 6" class="about__photo">
+                    <img src="img/user-12.jpg" alt="About Photo 7" class="about__photo">
+                    <img src="img/user-13.jpg" alt="About Photo 8" class="about__photo">
+                    <img src="img/user-1.jpg" alt="About Photo 9" class="about__photo">
+                </div>
+            </div>
+            <div class="about__me">
+                <div class="about__header">
+                    <h1 class="about__heading">About Me</h1>
+                    <div style="width:10%;display:flex;justify-content: center;">
+                        <div class="about__expand"></div>
+                    </div>
+                </div>
+                <h2 class="about__text">email</h2>
+                <h2 class="about__text about__text--ans">akp.emma1231@gmail.com</h2>
+                <h2 class="about__text">phone</h2>
+                <h2 class="about__text about__text--ans">+91-8897584843</h2>
+                <h2 class="about__text">address</h2>
+                <h2 class="about__text about__text--ans">Po Box 2103 Linden, NJ 07036 (USA)</h2>
+                <h2 class="about__text">plan</h2>
+                <h2 class="about__text about__text--ans">$100</h2>
+                <h2 class="about__text">Joined</h2>
+                <h2 class="about__text about__text--ans">Mon 22nd Feb, 2019</h2>
+
+        </section>
+
+
+        <section class="section-navigation">
+            <div class="navigation">
+                <ul class="list">
+                    <li class="list__items">
+                        <a href="#" class="list__link list__link--active"><i
+                                class="fa fa-home navigation__icon"></i>Dashboard</a>
+                    </li>
+                    <li class="list__items"><a href="#" class="list__link">New Claims</a></li>
+                    <li class="list__items"><a href="#" class="list__link">Completed Claim</a></li>
+                    <li class="list__items"><a href="#" class="list__link">Past Claim</a></li>
+                    <li class="list__items"><a href="#" class="list__link">Members</a></li>
+                    <li class="list__items"><a href="#" class="list__link">My Claim</a></li>
+                </ul>
+                <button class="btn btn--green navigation__btn"><i class="fa fa-usd navigation__icon"></i>Claim</button>
+            </div>
+
+        </section>
+        <section class="section-overview">
+            <div class="overview">
+                <div class="overview__box">
+                    <div class="overview__numbers">23</div>
+                    <div class="overview__detail">
+                        <div class="overview__name">New Claim</div>
+                        <div class="overview__images">
+                            <figure>
+                                <img src="img/user-1.jpg" alt="Photo-1" class="overview__photo">
+                            </figure>
+                            <figure>
+                                <img src="img/user-2.jpg" alt="Photo-2" class="overview__photo">
+                            </figure>
+                            <figure>
+                                <img src="img/user-3.jpg" alt="Photo-3" class="overview__photo">
+                            </figure>
+                            <figure>
+                                <img src="img/user-4.jpg" alt="Photo-4" class="overview__photo">
+                                <span class="overview__caption">+32</span>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview__box">
+                    <div class="overview__numbers">76</div>
+                    <div class="overview__detail">
+                        <div class="overview__name">New Members</div>
+                        <div class="overview__images">
+                            <figure>
+                                <img src="img/user-1.jpg" alt="Photo-1" class="overview__photo">
+                            </figure>
+                            <figure>
+                                <img src="img/user-2.jpg" alt="Photo-2" class="overview__photo">
+                            </figure>
+                            <figure>
+                                <img src="img/user-3.jpg" alt="Photo-3" class="overview__photo">
+                            </figure>
+                            <figure>
+                                <img src="img/user-4.jpg" alt="Photo-4" class="overview__photo">
+                                <span class="overview__caption">+32</span>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview__box">
+                    <div class="overview__numbers">102</div>
+                    <div class="overview__detail">
+                        <div class="overview__name">Total Claim</div>
+                        <div class="overview__images">
+                            <figure>
+                                <img src="img/user-1.jpg" alt="Photo-1" class="overview__photo">
+                            </figure>
+                            <figure>
+                                <img src="img/user-2.jpg" alt="Photo-2" class="overview__photo">
+                            </figure>
+                            <figure>
+                                <img src="img/user-3.jpg" alt="Photo-3" class="overview__photo">
+                            </figure>
+                            <figure>
+                                <img src="img/user-4.jpg" alt="Photo-4" class="overview__photo">
+                                <span class="overview__caption">+32</span>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="section-portfolio">
+            <div class="portfolio hide-scroll">
+                <div class="portfolio__card">
+                    <img class="portfolio__image" src="img/user-1.jpg">
+
+                    <div class="portfolio__details">
+                        <h1 class="portfolio__name">
+                            Amelia Kimani
+                        </h1>
+                        <div class="portfolio__text"><i class="fa fa-calendar-o"></i><span>Filed - </span>Thu, Jul
+                            10,2018
+                            7:30PM EDT</div>
+                        <div class="portfolio__text"><i class="fa fa-calendar"></i><span>Due - </span>Wed, Jul 23, 2019
+                            12:30
+                            PM</div>
+                        <div class="portfolio__text"><i class="fa fa-map-marker"></i><span>Address - </span>Hillside RD,
+                            Hiranandani...</div>
+                    </div>
+                    <a class="btn btn--primary portfolio__btn"><i class="fa fa-money"></i>Pay</a>
+                </div>
+                <div class="portfolio__card">
+                    <img class="portfolio__image" src="img/user-2.jpg">
+
+                    <div class="portfolio__details">
+                        <h1 class="portfolio__name">
+                            GENEvieve Juma
+                        </h1>
+                        <div class="portfolio__text"><i class="fa fa-calendar-o"></i><span>Filed - </span>Thu, Jul
+                            10,2018
+                            7:30PM EDT</div>
+                        <div class="portfolio__text"><i class="fa fa-calendar"></i><span>Due - </span>Wed, Jul 23, 2019
+                            12:30
+                            PM</div>
+                        <div class="portfolio__text"><i class="fa fa-map-marker"></i><span>Address - </span>Hillside RD,
+                            Hiranandani...</div>
+                    </div>
+                    <a class="btn btn--primary portfolio__btn"><i class="fa fa-money"></i>Pay</a>
+                </div>
+                <div class="portfolio__card">
+                    <img class="portfolio__image" src="img/user-3.jpg">
+
+                    <div class="portfolio__details">
+                        <h1 class="portfolio__name">
+                            Theodore Wachira
+                        </h1>
+                        <div class="portfolio__text"><i class="fa fa-calendar-o"></i><span>Filed - </span>Thu, Jul
+                            10,2018
+                            7:30PM EDT</div>
+                        <div class="portfolio__text"><i class="fa fa-calendar"></i><span>Due - </span>Wed, Jul 23, 2019
+                            12:30
+                            PM</div>
+                        <div class="portfolio__text"><i class="fa fa-map-marker"></i><span>Address - </span>Hillside RD,
+                            Hiranandani...</div>
+                    </div>
+                    <a class="btn btn--primary portfolio__btn"><i class="fa fa-money"></i>Pay</a>
+                </div>
+                <div class="portfolio__card">
+                    <img class="portfolio__image" src="img/user-3.jpg">
+
+                    <div class="portfolio__details">
+                        <h1 class="portfolio__name">
+                            Theodore Wachira
+                        </h1>
+                        <div class="portfolio__text"><i class="fa fa-calendar-o"></i><span>Filed - </span>Thu, Jul
+                            10,2018
+                            7:30PM EDT</div>
+                        <div class="portfolio__text"><i class="fa fa-calendar"></i><span>Due - </span>Wed, Jul 23, 2019
+                            12:30
+                            PM</div>
+                        <div class="portfolio__text"><i class="fa fa-map-marker"></i><span>Address - </span>Hillside RD,
+                            Hiranandani...</div>
+                    </div>
+                    <a class="btn btn--primary portfolio__btn"><i class="fa fa-money"></i>Pay</a>
+                </div>
+                <div class="portfolio__card">
+                    <img class="portfolio__image" src="img/user-3.jpg">
+
+                    <div class="portfolio__details">
+                        <h1 class="portfolio__name">
+                            Theodore Wachira
+                        </h1>
+                        <div class="portfolio__text"><i class="fa fa-calendar-o"></i><span>Filed - </span>Thu, Jul
+                            10,2018
+                            7:30PM EDT</div>
+                        <div class="portfolio__text"><i class="fa fa-calendar"></i><span>Due - </span>Wed, Jul 23, 2019
+                            12:30
+                            PM</div>
+                        <div class="portfolio__text"><i class="fa fa-map-marker"></i><span>Address - </span>Hillside RD,
+                            Hiranandani...</div>
+                    </div>
+                    <a class="btn btn--primary portfolio__btn"><i class="fa fa-money"></i>Pay</a>
+                </div>
+
+            </div>
+        </section>
+        <section class="section-activity">
+            <div class="activity display-scroll">
+                <h1 class="activity__heading">ACtivity</h1>
+                <ul class="activity__list">
+                    <li><i class="activity__circle-1 activity__circle--blue fa fa-circle-thin" aria-hidden="true">
+                            <i class="activity__circle-2  fa fa-circle" aria-hidden="true"></i>
+                        </i>
+                        <div>Claimed
+                            $2000</div>
+                        <ul class="activity__list-2">
+                            <li>
+                                <div>23 members are got claimed in washington DC</div>
+                            </li>
+                            <li>
+                                <div>05:40pm</div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><i class="activity__circle-1 activity__circle--primary fa fa-circle-thin" aria-hidden="true">
+                            <i class="activity__circle-2  fa fa-circle" aria-hidden="true"></i>
+                        </i>
+                        <div>102 New Members</div>
+                        <ul class="activity__list-2">
+                            <li>
+                                <div>We have 102 registrations check out their profiles</div>
+                            </li>
+                            <li>
+                                <div>05:40pm</div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><i class="activity__circle-1 activity__circle--secondary fa fa-circle-thin"
+                            aria-hidden="true"><i class="activity__circle-2  fa fa-circle" aria-hidden="true"></i></i>
+                        <div>3 Claims are waiting</div>
+                        <ul class="activity__list-2">
+                            <li>
+                                <div>Please Contribute them, they are Waiting for your help.</div>
+                            </li>
+                            <li>
+                                <div>05:40pm</div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><i class="activity__circle-1 activity__circle--blue fa fa-circle-thin" aria-hidden="true"><i
+                                class="activity__circle-2 fa fa-circle" aria-hidden="true"></i></i>
+                        <div></div>
+                        <div>102 New Members</div>
+                        <ul class="activity__list-2">
+                            <li>
+                                <div>We have 102 registrations check out their profiles</div>
+                            </li>
+                            <li>
+                                <div>05:40pm</div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><i class="activity__circle-1 activity__circle--primary fa fa-circle-thin" aria-hidden="true">
+                            <i class="activity__circle-2  fa fa-circle" aria-hidden="true"></i>
+                        </i>
+                        <div>102 New Members</div>
+                        <ul class="activity__list-2">
+                            <li>
+                                <div>We have 102 registrations check out their profiles</div>
+                            </li>
+                            <li>
+                                <div>05:40pm</div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><i class="activity__circle-1 activity__circle--secondary fa fa-circle-thin"
+                            aria-hidden="true"><i class="activity__circle-2  fa fa-circle" aria-hidden="true"></i></i>
+                        <div>3 Claims are waiting</div>
+                        <ul class="activity__list-2">
+                            <li>
+                                <div>Please Contribute them, they are Waiting for your help.</div>
+                            </li>
+                            <li>
+                                <div>05:40pm</div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><i class="activity__circle-1 activity__circle--blue fa fa-circle-thin" aria-hidden="true"><i
+                                class="activity__circle-2 fa fa-circle" aria-hidden="true"></i></i>
+                        <div></div>
+                        <div>102 New Members</div>
+                        <ul class="activity__list-2">
+                            <li>
+                                <div>We have 102 registrations check out their profiles</div>
+                            </li>
+                            <li>
+                                <div>05:40pm</div>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+    </div>
+
+</body>
+
+</html>

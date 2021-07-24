@@ -1,0 +1,65 @@
+.activity {
+  background-color: $color-white;
+  margin: 2rem;
+  padding: 3rem;
+  box-shadow: $shadow-1;
+  border-radius: 5px;
+  max-height: 100vh;
+  &__heading {
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $color-grey-dark-1;
+    line-height: 0.8;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid $color-grey-light-1;
+  }
+  &__list {
+    padding-left: 2rem;
+    color: $color-grey-dark-1;
+    position: relative;
+    list-style: none;
+    > li {
+      > div {
+        padding-left: 2rem;
+      }
+      position: relative;
+      padding-bottom: 1rem;
+    }
+  }
+  &__list-2 {
+    color: $color-grey-light-1;
+    list-style: none;
+    > li {
+      padding: 2px 0;
+      > div {
+        padding-left: 2rem;
+      }
+      border-left: 1px solid $color-grey-light-1;
+    }
+  }
+
+  &__circle-1 {
+    position: absolute;
+    left: -0.8rem;
+    top: 0;
+    font-size: 2rem;
+  }
+  &__circle-2 {
+    font-size: 1rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    line-height: 0;
+    transform: translate(-50%, -50%);
+  }
+  &__circle--primary {
+    color: $color-primary;
+  }
+  &__circle--secondary {
+    color: $color-secondary;
+  }
+  &__circle--blue {
+    color: #58a7f2;
+  }
+}

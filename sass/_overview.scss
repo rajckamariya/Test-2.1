@@ -1,0 +1,74 @@
+.overview {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  &__box {
+    display: flex;
+    width: 31%;
+    justify-content: center;
+    background-color: $color-white;
+    box-shadow: $shadow-1;
+    border-radius: 5px;
+    padding: 2rem 1rem;
+  }
+  &__numbers {
+    align-self: center;
+    font-size: 6rem;
+    display: flex;
+    flex-basis: 40%;
+    justify-content: center;
+    border-right: 1px solid rgba($color-grey-light-1, 0.2);
+  }
+  &__detail {
+    color: $color-grey-light-1;
+    text-transform: uppercase;
+    align-self: center;
+    font-size: 2rem;
+    flex-basis: 50%;
+    margin: auto;
+  }
+  &__name {
+    font-size: 1.8rem;
+    font-weight: 400;
+    display: flex;
+    padding: 1rem 0;
+    justify-content: center;
+  }
+  &__images {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+
+    figure {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%;
+      position: relative;
+      margin: 0;
+      margin-right: -2rem;
+    }
+  }
+
+  &__photo {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  &__caption {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    opacity: 0.8;
+    border: 2px solid white;
+    color: $color-white;
+    background-color: $color-secondary;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+}

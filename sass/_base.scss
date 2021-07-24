@@ -1,0 +1,45 @@
+// COLOR VARIABLES
+$color-primary: #ee913a;
+$color-primary-dark: #d45a18;
+
+$color-secondary: #459a81;
+
+$color-grey-light-1: #a6a7a9;
+$color-grey-light-2: #d9c0aa;
+$color-grey-light-3: #fafafa;
+$color-grey-dark-1: #0f1013;
+$color-grey-dark-2: #56453f;
+
+$color-white: #ffffff;
+$color-black: #000000;
+
+// FONT VARIABLES
+$font-primary: system-ui;
+//arial
+//Box Shadow
+$shadow-1: 0 1rem 1rem rgba($color-black, 0.05);
+
+//RESPONSIVE POINTS
+$bp-large: 75em; // 1200px
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; //1rem=10px // 10/16=62.5
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%; //1rem =8px //8/16=50%
+  }
+}
+
+body {
+  font-family: $font-primary;
+  font-weight: 300;
+  line-height: 1.6;
+  box-sizing: border-box;
+  background-color: $color-grey-light-3;
+}
